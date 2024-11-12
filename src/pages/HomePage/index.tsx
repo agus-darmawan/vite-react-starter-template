@@ -5,7 +5,7 @@ interface IHomePageProps {}
 const HomePage: React.FunctionComponent<IHomePageProps> = () => {
   return (
     <section>
-      <h1>HomePage</h1>
+      <h1 className="text-blue-500">HomePage</h1>
     </section>
   );
 };
